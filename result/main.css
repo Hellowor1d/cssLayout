@@ -1,12 +1,17 @@
 * {
-  marin: 0;
+  margin: 0;
   padding: 0; }
 
-h1 {
-  color: blue; }
+body {
+  font-family: -apple-system,Helvetica Neue,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  color: #333; }
 
 
 
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6IkFBQUEsQ0FBQztFQUNHLEtBQUssRUFBQyxDQUFDO0VBQ1AsT0FBTyxFQUFDLENBQUM7O0FBRWIsRUFBRTtFQUNFLEtBQUssRUFBQyxJQUFJIiwic291cmNlcyI6WyJtYWluLnNjc3MiXSwibmFtZXMiOltdLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqe1xuICAgIG1hcmluOjA7XG4gICAgcGFkZGluZzowXG59XG5oMXtcbiAgICBjb2xvcjpibHVlXG59Il19 */
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJtYXBwaW5ncyI6IkFBQUEsQ0FBQztFQUNHLE1BQU0sRUFBQyxDQUFDO0VBQ1IsT0FBTyxFQUFDLENBQUM7O0FBRWIsSUFBSTtFQUNBLFdBQVcsRUFBRSw4R0FBOEc7RUFDM0gsV0FBVyxFQUFFLEdBQUc7RUFDaEIsVUFBVSxFQUFFLE1BQU07RUFDbEIsY0FBYyxFQUFFLGtCQUFrQjtFQUNsQyxXQUFXLEVBQUUsQ0FBQztFQUNkLEtBQUssRUFBRSxJQUFJIiwic291cmNlcyI6WyJtYWluLnNjc3MiXSwibmFtZXMiOltdLCJmaWxlIjoibWFpbi5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIqe1xuICAgIG1hcmdpbjowO1xuICAgIHBhZGRpbmc6MFxufVxuYm9keXtcbiAgICBmb250LWZhbWlseTogLWFwcGxlLXN5c3RlbSxIZWx2ZXRpY2EgTmV1ZSxBcmlhbCxQaW5nRmFuZyBTQyxIaXJhZ2lubyBTYW5zIEdCLE1pY3Jvc29mdCBZYUhlaSxXZW5RdWFuWWkgTWljcm8gSGVpLHNhbnMtc2VyaWY7XG4gICAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgICBmb250LXN0eWxlOiBub3JtYWw7XG4gICAgdGV4dC1yZW5kZXJpbmc6IG9wdGltaXplTGVnaWJpbGl0eTtcbiAgICBsaW5lLWhlaWdodDogMTtcbiAgICBjb2xvcjogIzMzMztcbn0iXX0= */
 
 /*# sourceMappingURL=maps/main.css.map */
