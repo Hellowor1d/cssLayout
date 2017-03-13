@@ -5,4 +5,4 @@
 
 ### 两栏布局
 1.一列定宽，一列自适应宽度
-[预览]()    [源码]()
+[预览](http://hellowor1d.github.io/cssLayout/app/two-column-layout/specific-width%2Bresponsing-column/float%2Bmargin.html)    [源码]()
