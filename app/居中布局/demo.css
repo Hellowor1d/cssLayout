@@ -18,5 +18,8 @@ del,ins,u,s,a,a:hover{text-decoration:none;}
 body,textarea,input,button,select,keygen,legend{font:30px/1.5 'microsoft yahei';color:#333;outline:0;}
 body{background:#fff;}
 a,a:hover{color:#333;}
-.parent{background:#ddd;}
-.child{background:#666;color:#fff;}
+.parent{background:#35495E;}
+.child{background:#4fc08d;color:#fff;}
+div{
+    border-radius: 5px;
+}

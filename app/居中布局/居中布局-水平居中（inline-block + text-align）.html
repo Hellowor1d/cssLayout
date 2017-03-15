@@ -5,33 +5,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../../result/main.css">
+    <link rel="stylesheet" type="text/css" href="demo.css">
     <title>居中布局-水平居中（inline-block + text-align）</title>
     <style>
-
+    .description{
+        font-family:'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        margin:20px auto;
+         text-align: center;
+    }
 /* 优点
 兼容性佳（甚至可以兼容 IE 6 和 IE 7） */
         .parent {
             margin: 20px auto;
             width: 500px;
             height: 100px;
-            background-color: #ccc;
+            background-color: #35495E;
             text-align: center;
         }
         
         .child {
             width: 100px;
             height: 100px;
-            background-color: lawngreen;
+            background-color: #4fc08d;
             display: inline-block;
         }
     </style>
 </head>
 
 <body>
+    <div class="description">
+        <h1>inline-block + text-align</h1>
+    </div>
+    
     <div class="parent">
         <div class="child"></div>
     </div>
+<p data-height="265" data-theme-id="dark" data-slug-hash="yModwB" data-default-tab="css,result" data-user="Hellowor1d" data-embed-version="2" data-pen-title="居中布局-水平居中（inline-block + text-align）" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Hellowor1d/pen/yModwB/">居中布局-水平居中（inline-block + text-align）</a> by 犀利一下下 (<a href="http://codepen.io/Hellowor1d">@Hellowor1d</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </body>
 
 </html>
