@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>水平居中</title>
+<link rel="stylesheet" type="text/css" href="demo.css">
+<style type="text/css">
+	body{margin:20px;}
+/*NOTE: display: table 在表现上类似 block 元素，但是宽度为内容宽。+
+
+优点
+
+无需设置父元素样式 （支持 IE 8 及其以上版本）*/
+	.child{
+		display: table;
+		margin: 0 auto;
+	}
+</style>
+</head>
+<body>
+<div class="parent">
+	<div class="child">DEMO</div>
+</div>
+</body>
+</html>
