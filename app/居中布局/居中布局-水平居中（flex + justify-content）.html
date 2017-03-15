@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="utf-8"/>
-<title>水平居中</title>
-<link rel="stylesheet" type="text/css" href="demo.css">
-<style type="text/css">
-	body{margin:20px;}
 
-	.parent{
-		display: flex;
-		justify-content: center;
-	}
-	 /* 或者下面的方法，可以达到一样的效果 
+<head>
+	<meta charset="utf-8" />
+	<title>居中布局-水平居中（flex + justify-content）</title>
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<style type="text/css">
+		.parent {
+			width: 500px;
+			margin: 20px auto;
+			display: flex;
+			justify-content: center;
+		}
+		
+		.child {
+			width: 100px;
+			height: 100px;
+		}
+		/* 或者下面的方法，可以达到一样的效果 
 	 
 优点
 
@@ -20,18 +26,26 @@
 缺点
 
 有兼容性问题*/
-
-  /*.parent {
+		/*.parent {
     display: flex;
   }
   .child {
     margin: 0 auto;
   }*/
-</style>
+	</style>
 </head>
+
 <body>
-<div class="parent">
-	<div class="child">DEMO</div>
-</div>
+	<div class="description">
+		<h1> flex + justify-content </h1>
+	</div>
+	<div class="parent">
+		<div class="child"></div>
+	</div>
+	<p data-height="265" data-theme-id="dark" data-slug-hash="mWBegx" data-default-tab="css,result" data-user="Hellowor1d" data-embed-version="2"
+					data-pen-title="mWBegx" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Hellowor1d/pen/mWBegx/">mWBegx</a> by 犀利一下下 (<a href="http://codepen.io/Hellowor1d">@Hellowor1d</a>)
+		on <a href="http://codepen.io">CodePen</a>.</p>
+		<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </body>
+
 </html>
