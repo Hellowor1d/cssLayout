@@ -9,4 +9,10 @@
 
 ## 常见定位方法
 ### 水平居中
-1. 方法一：[text-align + inline-block](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-水平居中（inline-block%20%2B%20text-align）.html)
+1. 方法一：[text-align + inline-block](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-水平居中（text-align%20%2B%20inline-block）.html)
+
+2. 方法二：[table + margiin](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-水平居中（table%20%2B%20margin）.html)
+
+3. 方法三：[absolute + transform](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-水平居中（absolute%20%2B%20transform）.html)
+
+4. 方法四：[flex + justify-content](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-水平居中（flex%20%2B%20justify-content）.html)
