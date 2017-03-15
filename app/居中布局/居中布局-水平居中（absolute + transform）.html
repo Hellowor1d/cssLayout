@@ -2,21 +2,24 @@
 <html>
 <head>
 <meta charset="utf-8"/>
-<title>水平居中</title>
+<title>居中布局-水平居中（ absolute + transform ）</title>
 <link rel="stylesheet" type="text/css" href="demo.css">
 <style type="text/css">
-	body{margin:20px;}
 	/*优点
 
 绝对定位脱离文档流，不会对后续元素的布局造成影响。
 缺点
 
 transform 为 CSS3 属性，有兼容性问题*/
-	.parent{height:1.5em;}
 	.parent{
 		position: relative;
+		width:500px;
+		height:100px;
+		margin:20px auto;
 	}
 	.child{
+		width:100px;
+		height:100px;
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
@@ -24,8 +27,13 @@ transform 为 CSS3 属性，有兼容性问题*/
 </style>
 </head>
 <body>
+	   <div class="description">
+        <h1> absolute + transform </h1>
+    </div>
 <div class="parent">
-	<div class="child">DEMO</div>
+	<div class="child"></div>
 </div>
+<p data-height="265" data-theme-id="dark" data-slug-hash="oZGjdB" data-default-tab="css,result" data-user="Hellowor1d" data-embed-version="2" data-pen-title="oZGjdB" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Hellowor1d/pen/oZGjdB/">oZGjdB</a> by 犀利一下下 (<a href="http://codepen.io/Hellowor1d">@Hellowor1d</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 </body>
 </html>
