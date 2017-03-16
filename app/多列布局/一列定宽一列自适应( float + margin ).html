@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../../result/main.css" >
+    <style>
+        div{
+            border-radius:5px;
+        }
+        .top{
+            height:100px;
+            background-color:mediumseagreen
+        }
+        p{
+            padding:10px;
+            font-size:20px;
+            line-height:20px;
+        }
+        h1{
+            text-align: center;
+           padding:35px;
+        }
+        /*布局相关样式*/
+        .left{
+             width:300px;
+             height:500px;
+             float:left;
+              /*使用绝对定位也能实现这里float的同样效果*/
+            /*position: absolute;*/
+            background-color: lightblue;
+        }
+        .content{
+            margin-left:300px;
+            height:500px;
+            background-color:orange;
+        }
+
+    </style>
+    <title>两列布局：一列定宽，一列自适应 </title>
+</head>
+<body>
+    
+    <div class="top">
+        <h1>左侧定宽，右侧自适应</h1>
+    </div>
+    <div class="left">
+        <p>.left</p>
+      <p>左侧浮动</p>
+    </div>
+
+    <div class="content">
+        <p>.content</p>
+        <p>内容区用margin-left与侧边栏隔开,实现宽度自适应屏幕宽度</p>
+    </div>
+</body>
+</html>

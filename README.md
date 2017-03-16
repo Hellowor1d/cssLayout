@@ -1,12 +1,6 @@
 # CSS-Layout
 旨在打造详尽的前端布局代码学习库（自从用了框架开发，CSS生疏了不少，所以开这个库练练手）
 
-## 常见布局
-
-### 两栏布局
-1.一列定宽，一列自适应宽度
-[预览](https://hellowor1d.github.io/cssLayout/app/two-column-layout/specific-width%2Bresponsing-column/float%2Bmargin.html)    [源码]()
-
 ## 常见定位方法
 ### 水平居中
 
@@ -104,3 +98,14 @@
 >2. 方法二：[absolute + transform](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-完全居中（absolute%20%2B%20transform）.html)
 
 >3. 方法三：[flex + justify-content + align-items](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-完全居中（flex%20%2B%20justify-content%20%2B%20align-items）.html)
+
+## 常见布局
+
+### 多列布局
+1.一列定宽，一列自适应宽度
+![效果图](http://7xo9xp.com1.z0.glb.clouddn.com/CSSLayout/float+margin-csslayout.jpg)
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20float%20%2B%20margin%20).html)    [源码]()
+
+2.一列定宽，一列自适应宽度fix
+![效果图](http://7xo9xp.com1.z0.glb.clouddn.com/CSSLayout/float+margin-csslayout.jpg)
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20float%20%2B%20margin%20).html)    [源码]()
