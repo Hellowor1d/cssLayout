@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>居中布局-垂直居中（absolute + transform）</title>
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<style type="text/css">
+		.parent {
+			width: 4em;
+			height: 500px;
+		}
+		
+		.child {
+			width: 100%;
+		}
+		
+		.parent {
+			position: relative;
+			margin: 20px auto;
+		}
+		
+		.child {
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			text-align: center;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="description">
+		<h1>absolute + transform</h1>
+	</div>
+	<div class="parent">
+		<div class="child">DEMO</div>
+	</div>
+	<p data-height="265" data-theme-id="dark" data-slug-hash="peWGEe" data-default-tab="css,result" data-user="Hellowor1d" data-embed-version="2" data-pen-title="peWGEe" data-preview="true" class="codepen">See the Pen <a href="http://codepen.io/Hellowor1d/pen/peWGEe/">peWGEe</a> by 犀利一下下 (<a href="http://codepen.io/Hellowor1d">@Hellowor1d</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</body>
+
+</html>

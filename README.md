@@ -85,3 +85,19 @@
 
 
 **缺点**：IE 8 以下版本需要调整页面结构至 table
+
+>2. 方法二：[absolute + transform](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-垂直居中（absolute%20%2B%20transform）.html)
+
+**设置**：对父元素设置`position:realatve`(使其作为参照物)，对子元素设置`position:absolute;left:50%`(绝对定位元素的宽度也随内容而定)，然后对子元素设置`transform:translateY(-50%)`（兼容IE6、7 时，替换`div`结构为`table`结构即可）;
+
+**优点**： 居中元素不会对其他元素造成影响
+
+**缺点**：`transform`不兼容低版本IE
+
+>2. 方法三：[flex + align-items](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-垂直居中（absolute%20%2B%20transform）.html)
+
+**设置**：对父元素设置`position:realatve`(使其作为参照物)，对子元素设置`position:absolute;left:50%`(绝对定位元素的宽度也随内容而定)，然后对子元素设置`transform:translateY(-50%)`（兼容IE6、7 时，替换`div`结构为`table`结构即可）;
+
+**优点**： 居中元素不会对其他元素造成影响
+
+**缺点**：`transform`不兼容低版本IE
