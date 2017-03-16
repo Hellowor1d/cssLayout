@@ -15,13 +15,12 @@
 方案选择基本思路：
 子元素为
 
-> * 行内元素：对父元素设置text-align:center;
-> * 定宽块状元素: 设置左右margin值为auto;
-> * 不定宽块状元素: 设置子元素为display:inline,然后在父元素上设置text-align:center;
-> * 通用方案: flex布局，对父元素设置display:flex;justify-content:center;
+> * 行内元素：对父元素设置`text-align:center`;
+> * 定宽块状元素: 设置左右`margin`值为`auto`;
+> * 不定宽块状元素: 设置子元素为`display:inline`,然后在父元素上设置`text-align:center`;
+> * 通用方案: flex布局，对父元素设置`display:flex;justify-content:center`;
 
 常用方法举例：
----
 > **NOTE**:为了统一展示效果，在以下实例代码中对父子元素设置了固定宽高，实际可以不设置，由子元素内容来控制其宽度
 
 >1. 方法一：[text-align + inline-block](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-水平居中（text-align%20%2B%20inline-block）.html)
@@ -56,3 +55,33 @@
 **优点**：只需要对父元素进行设置
 
 **缺点**：`flex`不兼容低版本IE
+
+
+### 垂直居中
+
+垂直居中对于子元素是单行内联文本、多行内联文本以及块状元素采用的方案是不同的。
+
+> * 父元素一定，子元素为单行内联文本：设置父元素的`height`等于行高`line-height`
+> * 父元素一定，子元素为多行内联文本：设置父元素的`display:table-cell`或`inline-block`，再设置`vertical-align:middle`;
+> * 块状元素:设置子元素`position:absolute` 并设置`top、bottom`为0，父元素要设置定位为static以外的值，`margin:auto`;
+> * 通用方案: flex布局，给父元素设置`{display:flex; align-items:center;}`
+
+常用方法举例：
+
+>1. 方法一：[table-cell + vertical-align](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-垂直居中（text-align%20%2B%20inline-block）.html)
+
+**设置**：子容器高度不固定，对父元素设置`display:table-cell`(parent变为单元格，)，继续设置`vertical-align:center`（使inline元素垂直居中）;
+
+**优点**：兼容性好（支持 IE 8）
+
+
+**缺点**：IE 8 以下版本需要调整页面结构至 table
+
+>1. 方法一：[table-cell + vertical-align](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-垂直居中（table-cell%20%2B%20vertical-align）.html)
+
+**设置**：子容器高度不固定，对父元素设置`display:table-cell`(parent变为单元格，)，继续设置`vertical-align:center`（使inline元素垂直居中）;
+
+**优点**：兼容性好（支持 IE 8）
+
+
+**缺点**：IE 8 以下版本需要调整页面结构至 table
