@@ -50,7 +50,7 @@
 
 >4. 方法四：[flex + justify-content](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-水平居中（flex%20%2B%20justify-content）.html)
 
-**设置**：对父元素设置`display:flex;justify-content:center`(这样其内部的元素会变为`flex-item`)，`flex-item`的宽度默认为`auto`，所以跟随内容宽度变化，继而`justify-content:center`属性会使子元素居中
+**设置**：对父元素设置`display:flex;justify-content:center`(这样其内部的元素会变为`align-items`)，`align-items`的宽度默认为`auto`，所以跟随内容宽度变化，继而`justify-content:center`属性会使子元素居中
 
 **优点**：只需要对父元素进行设置
 
@@ -92,3 +92,13 @@
 **优点**： 只需要对父元素进行设置
 
 **缺点**：`flex align-items`不兼容低版本IE
+
+
+
+### 水平居中且垂直居中
+
+结合以上介绍到的水平和垂直居中方法进行设置
+
+>1. 方法一：[text-align + inline-block + table-cell + vertical-align](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-完全居中（text-align%20%2B%20inline-block%20%2B%20table-cell%20%2B%20vertical-align）.html)
+>2. 方法二：[text-align + inline-block + table-cell + vertical-align](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-完全居中（text-align%20%2B%20inline-block%20%2B%20table-cell%20%2B%20vertical-align）.html)
+>3. 方法三：[text-align + inline-block + table-cell + vertical-align](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-完全居中（text-align%20%2B%20inline-block%20%2B%20table-cell%20%2B%20vertical-align）.html)
