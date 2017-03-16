@@ -101,6 +101,6 @@
 
 >1. 方法一：[text-align + inline-block + table-cell + vertical-align](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-完全居中（text-align%20%2B%20inline-block%20%2B%20table-cell%20%2B%20vertical-align）.html)
 
->2. 方法二：[text-align + inline-block + table-cell + vertical-align](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-完全居中（absolute%20%2B%20transform）.html)
+>2. 方法二：[absolute + transform](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-完全居中（absolute%20%2B%20transform）.html)
 
->3. 方法三：[text-align + inline-block + table-cell + vertical-align](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-完全居中（flex%20%2B%20justify-content%20%2B%20align-items）.html)
+>3. 方法三：[flex + justify-content + align-items](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-完全居中（flex%20%2B%20justify-content%20%2B%20align-items）.html)
