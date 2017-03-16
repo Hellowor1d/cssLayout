@@ -68,15 +68,6 @@
 
 常用方法举例：
 
->1. 方法一：[table-cell + vertical-align](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-垂直居中（text-align%20%2B%20inline-block）.html)
-
-**设置**：子容器高度不固定，对父元素设置`display:table-cell`(parent变为单元格，)，继续设置`vertical-align:center`（使inline元素垂直居中）;
-
-**优点**：兼容性好（支持 IE 8）
-
-
-**缺点**：IE 8 以下版本需要调整页面结构至 table
-
 >1. 方法一：[table-cell + vertical-align](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-垂直居中（table-cell%20%2B%20vertical-align）.html)
 
 **设置**：子容器高度不固定，对父元素设置`display:table-cell`(parent变为单元格，)，继续设置`vertical-align:center`（使inline元素垂直居中）;
@@ -94,7 +85,7 @@
 
 **缺点**：`transform`不兼容低版本IE
 
->3. 方法三：[flex + align-items](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-垂直居中（absolute%20%2B%20transform）.html)
+>3. 方法三：[flex + align-items](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-垂直居中（flex%20%2B%20align-items）.html)
 
 **设置**：对父元素设置`display:flex`(align-items默认属性为stretch),继而设置`align-items:center`即可;
 
