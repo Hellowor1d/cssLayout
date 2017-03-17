@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <!--<link rel="stylesheet" type="text/css" href="../../result/main.css">-->
+    <title>多列等分布局（float）</title>
+    <style>
+        body{margin:20px;}
+    .parent{
+        background-color:mediumseagreen;
+        margin-left:-20px; 
+         /*为了添加这个20px*/
+    }
+    .column{
+        float:left;
+        width:25%;
+        padding-left:20px;
+       box-sizing:border-box;  
+       /*让width包含padding-left，就是把padding-left算到25%内  */
+    }
+    p{
+         background-color:mediumseagreen;
+         height:300px;
+    }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="column"><p>1</p></div>
+        <div class="column"><p>2</p></div>
+        <div class="column"><p>3</p></div>
+        <div class="column"><p>4</p></div>
+    </div>
+    
+</body>
+</html>
