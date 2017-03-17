@@ -102,10 +102,16 @@
 ## 常见布局
 
 ### 多列布局
-1.一列定宽，一列自适应宽度
+1.一列定宽，一列自适应宽度（float+margin）
 ![效果图](http://7xo9xp.com1.z0.glb.clouddn.com/CSSLayout/float+margin-csslayout.jpg)
 [预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20float%20%2B%20margin%20).html)    [源码]()
 
-2.一列定宽，一列自适应宽度fix
-![效果图](http://7xo9xp.com1.z0.glb.clouddn.com/CSSLayout/float+margin-csslayout.jpg)
-[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20float%20%2B%20margin%20).html)    [源码]()
+2.**一列定宽，一列自适应宽度（float+margin）fix 改良版**
+
+[预览](https://hellowor1d.github.io/cssLayout//app/多列布局/一列定宽一列自适应fix（float%20%2B%20margin%20）.html)    [源码]()
+>NOTE：此方法不会存在 IE 6 中3像素的 BUG，但 .left 不可选择， 需要设置 .left {position: relative} 来提高层级。 此方法可以适用于多版本浏览器（包括 IE6）。缺点是多余的 HTML 文本结构。
+
+3.一列定宽，一列自适应宽度(float + overflow )
+
+
+
