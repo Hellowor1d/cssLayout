@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../../result/main.css">
-      <title>两列布局：一列定宽，一列自适应 </title>
+    <title>两列布局：一列定宽，一列自适应 </title>
     <style>
         /*=======以下基本装饰部分，与布局结构无关=======*/
         
@@ -32,35 +32,44 @@
         /*=======以上基本装饰部分，与布局结构无关=======*/
         /*布局相关样式*/
         
-        .left {
+        .parent {
+            display: flex;
+        }
+        
+        .left{
             width: 300px;
             height: 500px;
-            float: left;
+            margin-right:10px;
             background-color: lightblue;
         }
         
         .content {
+            flex: 1;
             height: 500px;
-            overflow: hidden;
             background-color: orange;
         }
     </style>
-  
 </head>
 
 <body>
     <div class="top">
-        <h1>左侧定宽，右侧自适应（float + overflow）</h1>
+        <h1>左侧定宽，右侧自适应(flex)</h1>
     </div>
-    <div class="left">
-        <p>.left</p>
-        <p>左侧浮动</p>
-    </div>
-    <div class="content">
-        <p>.content</p>
-        <p>内容区设置 overflow: hidden 会触发 BFC 模式（Block Formatting Context）块级格式化文本。 BFC 中的内容与外界的元素是隔离的。
-        </p>
-        <p> 优点:样式简单 缺点:不支持 IE 6</p>
+    <div class="parent">
+        <div class="left">
+            <p>.left</p>
+            <p>左侧定宽</p>
+        </div>
+
+        <!--<div class="center">
+            <p>.center</p>
+            <p>第二列定宽</p>
+        </div>-->
+        
+        <div class="content">
+            <p>.content</p>
+            <p>flex：1 充满剩余空间，形成自适应效果，不设置的话默认为内容宽度</p>
+        </div>
     </div>
 </body>
 

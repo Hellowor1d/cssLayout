@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../../result/main.css">
+   <title>两列布局：一列定宽，一列自适应 </title>
     <style>
         /*=======以下基本装饰部分，与布局结构无关=======*/
         
@@ -51,7 +52,7 @@
             background-color: orange;
         }
     </style>
-    <title>两列布局：一列定宽，一列自适应 </title>
+    
 </head>
 
 <body>
@@ -61,10 +62,11 @@
     <div class="parent">
         <div class="left">
             <p>.left</p>
-            <p>左侧浮动</p>
+            <p>左侧是一个table-cell</p>
         </div>
         <div class="content">
             <p>.content</p>
+            <p>右侧也是一个table-cell</p>
             <p>table 的显示特性:每列的单元格（table-cell）宽度之和一定等于表格宽度。 table-layout: fixed; 可加速渲染，也可设定布局优先
             </p>
             <p>

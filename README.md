@@ -105,6 +105,7 @@
 
 ![效果图](http://7xo9xp.com1.z0.glb.clouddn.com/CSSLayout/float+margin-csslayout.jpg)
 
+####　一列定宽，一列自适应宽度
 1.一列定宽，一列自适应宽度（float+margin）
 
 [预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20float%20%2B%20margin%20).html)    [源码]()
@@ -124,6 +125,49 @@
 
 5.一列定宽，一列自适应宽度( flex )
 
-[预览](https://hellowor1d.github.io/cssLayout//app/多列布局/一列定宽一列自适应fix（float%20%2B%20margin%20）.html)    [源码]()
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20flex%20).html)    [源码]()
 
+#### 多列定宽，一列自适应宽度
+
+基于上面对于一列定宽一列自适应的需求实现，多列定宽只需要在原有一列定宽的基础上添加新的列即可，最后的列依然会自适应剩余宽度。
+
+以 flex 的实现为基础可以作如下改造：
+ ```html
+    <div class="parent">
+        <div class="left">
+            <p>.left</p>
+            <p>左侧定宽</p>
+        </div>
+
+        <div class="center">
+            <p>.center</p>
+            <p>第二列定宽</p>
+        </div>
+        
+        <div class="content">
+            <p>.content</p>
+            <p>flex：1 充满剩余空间，形成自适应效果，不设置的话默认为内容宽度</p>
+        </div>
+    </div>
+
+    <style>
+            .parent {
+            display: flex;
+        }
+        
+        .left,.center {
+            width: 300px;
+            height: 500px;
+            margin-right:10px;
+            background-color: lightblue;
+        }
+        
+        .content {
+            flex: 1;
+            height: 500px;
+            background-color: orange;
+        }
+    
+    </style>
+ ```
 
