@@ -117,7 +117,7 @@
 
 3.一列定宽，一列自适应宽度( float + overflow )
 
-[预览](https://hellowor1d.github.io/cssLayout//app/多列布局/一列定宽一列自适应fix（float%20%2B%20margin%20）.html)    [源码]()
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应fix（float%20%2B%20margin%20）.html)    [源码]()
 
 4.一列定宽，一列自适应宽度( table + table-cell )
 
@@ -175,3 +175,14 @@
 
 #### 多列等分布局
 
+1.多列等分布局（float）
+
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/多列等分布局（float）.html)    [源码]()
+
+2.多列等分布局（table）
+
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/多列等分布局（table）.html)    [源码]()
+
+3.多列等分布局（flex）
+
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/多列等分布局（flex）.html)    [源码]()
