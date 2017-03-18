@@ -1,8 +1,7 @@
 # CSS-Layout
 旨在打造详尽的前端布局代码学习库（自从用了框架开发，CSS生疏了不少，所以开这个库练练手）
 
-## 常见定位方法
-### 水平居中
+## 水平居中
 
 子元素为行内元素还是块状元素，宽度一定还是宽度未定，采取的布局方案不同。
 
@@ -51,7 +50,7 @@
 **缺点**：`flex`不兼容低版本IE
 
 
-### 垂直居中
+## 垂直居中
 
 垂直居中对于子元素是单行内联文本、多行内联文本以及块状元素采用的方案是不同的。
 
@@ -60,7 +59,7 @@
 > * 块状元素:设置子元素`position:absolute` 并设置`top、bottom`为0，父元素要设置定位为static以外的值，`margin:auto`;
 > * 通用方案: flex布局，给父元素设置`{display:flex; align-items:center;}`
 
-常用方法举例：
+## 常用方法举例：
 
 >1. 方法一：[table-cell + vertical-align](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-垂直居中（table-cell%20%2B%20vertical-align）.html)
 
@@ -87,9 +86,7 @@
 
 **缺点**：`flex align-items`不兼容低版本IE
 
-
-
-### 水平居中且垂直居中
+## 水平居中且垂直居中
 
 结合以上介绍到的水平和垂直居中方法进行设置
 
@@ -99,13 +96,12 @@
 
 >3. 方法三：[flex + justify-content + align-items](https://hellowor1d.github.io/cssLayout/app/居中布局/居中布局-完全居中（flex%20%2B%20justify-content%20%2B%20align-items）.html)
 
-## 常见布局
-
-### 多列布局
+## 多列布局
 
 ![效果图](http://7xo9xp.com1.z0.glb.clouddn.com/CSSLayout/float+margin-csslayout.jpg)
 
-####　一列定宽，一列自适应宽度
+### 一列定宽，一列自适应宽度
+
 1.一列定宽，一列自适应宽度（float+margin）
 
 [预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20float%20%2B%20margin%20).html)    [源码]()
@@ -127,7 +123,7 @@
 
 [预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20flex%20).html)    [源码]()
 
-#### 多列定宽，一列自适应宽度
+### 多列定宽，一列自适应宽度
 
 基于上面对于一列定宽一列自适应的需求实现，多列定宽只需要在原有一列定宽的基础上添加新的列即可，最后的列依然会自适应剩余宽度。
 
@@ -170,10 +166,10 @@
     
     </style>
  ```
-#### 多列不定宽，一列自适应宽度 
+### 多列不定宽，一列自适应宽度 
 基于以上一列定宽一列自适应的实现，进行改造，左侧不定宽区域的宽度任意（也可以由内部的内容来决定宽度就可以实现不定宽且自适应），继续增加一列即可变为多列，都很方便实现
 
-#### 多列等分布局
+## 多列等分布局
 
 1.多列等分布局（float）
 
@@ -187,7 +183,7 @@
 
 [预览](https://hellowor1d.github.io/cssLayout/app/多列布局/多列等分布局（flex）.html)    [源码]()
 
-#### 多列等高布局
+## 多列等高布局
 
 1.多列等高布局（table）
 
@@ -195,4 +191,4 @@
 
 2.多列等高布局（flex）
 
-[预览](https://hellowor1d.github.io/cssLayoutapp/多列布局/多列等高布局（flex）.html)    [源码]()
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/多列等高布局（flex）.html)    [源码]()
