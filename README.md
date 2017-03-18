@@ -186,3 +186,13 @@
 3.多列等分布局（flex）
 
 [预览](https://hellowor1d.github.io/cssLayout/app/多列布局/多列等分布局（flex）.html)    [源码]()
+
+#### 多列等高布局
+
+1.多列等高布局（table）
+
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/多列等高布局（table）.html)    [源码]()
+
+2.多列等高布局（flex）
+
+[预览](https://hellowor1d.github.io/cssLayoutapp/多列布局/多列等高布局（flex）.html)    [源码]()

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../../result/main.css">
+    <title>多列等高布局（flex）</title>
+    <style>
+        /*实现原理：flex 默认的 align-items 的值为 stretch*/
+  .parent {
+    display: flex;
+    margin:20px auto;
+    width:500px;
+  }
+  .left {
+    width: 100px;
+    margin-left: 20px;
+     background-color:aqua;
+  }
+  .right {
+    flex: 1;
+     background-color:mediumseagreen;
+    /*等价于*/
+    /*flex: 1 1 0;*/
+  }
+</style>
+</head>
+<body>
+    <div class="parent">
+  <div class="left">
+    <p>left</p>
+  </div>
+  <div class="right">
+    <p>right</p>
+    <p>right</p>
+    <p>right</p>
+    <p>right</p>
+    <p>right</p>
+  </div>
+</div>
+</body>
+</html>
