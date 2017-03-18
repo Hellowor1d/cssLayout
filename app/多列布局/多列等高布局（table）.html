@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="../../result/main.css">
+    <title>多列等高布局（table）</title>
+    <style>
+        /*等高布局原理：table 的特性为每列等宽，每行等高*/
+  .parent {
+    display: table;
+    width: 500px;
+    margin:20px auto;
+    table-layout: fixed;
+  }
+  .left {
+    display: table-cell;
+    width: 100px;
+    background-color:aqua;
+  }
+  .right {
+       background-color:mediumseagreen;
+    display: table-cell;
+    /*宽度为剩余宽度*/
+  }
+</style>
+
+</head>
+<body>
+    <div class="parent">
+  <div class="left">
+    <p>left</p>
+  </div>
+  <div class="right">
+    <p>right</p>
+    <p>right</p><p>right</p><p>right</p><p>right</p>
+  </div>
+</div>
+</body>
+</html>
