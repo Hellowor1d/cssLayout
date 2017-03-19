@@ -192,3 +192,17 @@
 2.多列等高布局（flex）
 
 [预览](https://hellowor1d.github.io/cssLayout/app/多列布局/多列等高布局（flex）.html)    [源码]()
+
+## 全屏布局
+
+1.弹性全屏布局（position）
+
+[预览](https://hellowor1d.github.io/cssLayout/app/全屏布局/弹性全屏布局（position）.html)    [源码]()
+
+2.弹性全屏布局（flex）
+
+[预览](https://hellowor1d.github.io/cssLayout/app/全屏布局/弹性全屏布局（flex）.html)    [源码]()
+
+3.百分比布局，以上宽度设置更改为百分比即可
+
+4.根据内容完全自适应，position有限制无法满足，flex可以做到
