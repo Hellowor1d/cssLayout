@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>弹性全屏布局（position）</title>
+    <style>
+        html,body{
+            margin:0;
+            height:100%
+        }
+        div{
+            border-radius:5px;
+        }
+        .top{
+            position:relative;
+            left:0;
+            right:0;
+            top:0;
+            height:100px;
+            background-color:#4fc08d;
+        }
+        .left{
+            position:relative;
+            float:left;
+            top:0;
+            left:0;
+            width:300px;
+            height:100%;
+            background-color:#35495E;
+        }
+        .right{
+            position:relative;
+            top:0;
+            right:0;
+            left:302px;
+            height:100%;
+            background-color:aqua
+        }
+        .bottom{
+            position:relative;
+            height:100px;
+            left:0;
+            right:0;
+            bottom:0;
+            background-color:darkgoldenrod;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="top"></div>
+    <div class="left"></div>
+    <div class="right">
+        <div class="right_inner"></div>
+    </div>
+    <div class="bottom"></div>
+    
+</body>
+</html>
