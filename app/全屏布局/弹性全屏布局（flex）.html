@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>弹性全屏布局（position）</title>
+    <title>弹性全屏布局（flex）</title>
     <style>
         html,
         body {
@@ -16,40 +16,36 @@
             border-radius: 5px;
         }
         
-        html,body,.parent {
+        html,
+        body,
+        .parent {
             /*容器撑开全屏高度*/
             height: 100%;
+            display: flex;
+            flex-direction: column;
             /*去除滚动条样式*/
             overflow: hidden;
         }
         
         .top {
-            /*相对于 body 定位*/
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
             height: 100px;
             background-color: #4fc08d;
         }
         
+        .middle {
+            flex: 1;
+            display: flex;
+        }
+        
         .left {
-            position: absolute;
-            top: 100px;
-            left: 0;
             width: 300px;
-            bottom: 50px;
             background-color: #35495E;
         }
         
         .right {
-            position: absolute;
-            top: 100px;
-            right: 0;
-            left: 302px;
-            bottom: 50px;
-            background-color: aqua;
+            flex: 1;
             overflow: auto;
+            background-color: aqua;
         }
         
         .right_inner {
@@ -57,11 +53,7 @@
         }
         
         .bottom {
-            position: absolute;
             height: 50px;
-            left: 0;
-            right: 0;
-            bottom: 0;
             background-color: #333;
         }
     </style>
@@ -70,9 +62,11 @@
 <body>
     <div class="parent">
         <div class="top"></div>
-        <div class="left"></div>
-        <div class="right">
-            <div class="right_inner"></div>
+        <div class="middle">
+            <div class="left"></div>
+            <div class="right">
+                <div class="right_inner"></div>
+            </div>
         </div>
         <div class="bottom"></div>
     </div>
