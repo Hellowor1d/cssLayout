@@ -100,28 +100,28 @@
 
 ![效果图](http://7xo9xp.com1.z0.glb.clouddn.com/CSSLayout/float+margin-csslayout.jpg)
 
-### 一列定宽，一列自适应宽度
+###  一列定宽，一列自适应宽度
 
 1.一列定宽，一列自适应宽度（float+margin）
 
-[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20float%20%2B%20margin%20).html)    [源码](https://github.com/Hellowor1d/cssLayout/blob/master/app/%E5%B1%85%E4%B8%AD%E5%B8%83%E5%B1%80/%E5%B1%85%E4%B8%AD%E5%B8%83%E5%B1%80-%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD%EF%BC%88text-align%20%2B%20inline-block%EF%BC%89.html)
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20float%20%2B%20margin%20).html)    [源码](https://github.com/Hellowor1d/cssLayout/blob/gh-pages/app/%E5%A4%9A%E5%88%97%E5%B8%83%E5%B1%80/%E4%B8%80%E5%88%97%E5%AE%9A%E5%AE%BD%E4%B8%80%E5%88%97%E8%87%AA%E9%80%82%E5%BA%94(%20float%20%2B%20margin%20).html)
 
 2.**一列定宽，一列自适应宽度（float+margin）fix 改良版**
 
-[预览](https://hellowor1d.github.io/cssLayout//app/多列布局/一列定宽一列自适应fix（float%20%2B%20margin%20）.html)    [源码]()
+[预览](https://hellowor1d.github.io/cssLayout//app/多列布局/一列定宽一列自适应fix（float%20%2B%20margin%20）.html)    [源码](https://github.com/Hellowor1d/cssLayout/blob/gh-pages/app/%E5%A4%9A%E5%88%97%E5%B8%83%E5%B1%80/%E4%B8%80%E5%88%97%E5%AE%9A%E5%AE%BD%E4%B8%80%E5%88%97%E8%87%AA%E9%80%82%E5%BA%94fix%EF%BC%88float%20%2B%20margin%20%EF%BC%89.html)
 >NOTE：此方法不会存在 IE 6 中3像素的 BUG，但 .left 不可选择， 需要设置 .left {position: relative} 来提高层级。 此方法可以适用于多版本浏览器（包括 IE6）。缺点是多余的 HTML 文本结构。
 
 3.一列定宽，一列自适应宽度( float + overflow )
 
-[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应fix（float%20%2B%20margin%20）.html)    [源码]()
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应fix（float%20%2B%20margin%20）.html)    [源码](https://github.com/Hellowor1d/cssLayout/blob/gh-pages/app/%E5%A4%9A%E5%88%97%E5%B8%83%E5%B1%80/%E4%B8%80%E5%88%97%E5%AE%9A%E5%AE%BD%E4%B8%80%E5%88%97%E8%87%AA%E9%80%82%E5%BA%94(%20float%20%2B%20overflow%20).html)
 
 4.一列定宽，一列自适应宽度( table + table-cell )
 
-[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20table%20%2B%20table-cell%20).html)    [源码]()
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20table%20%2B%20table-cell%20).html)    [源码](https://github.com/Hellowor1d/cssLayout/blob/gh-pages/app/%E5%A4%9A%E5%88%97%E5%B8%83%E5%B1%80/%E4%B8%80%E5%88%97%E5%AE%9A%E5%AE%BD%E4%B8%80%E5%88%97%E8%87%AA%E9%80%82%E5%BA%94(%20table%20%2B%20table-cell%20).html)
 
 5.一列定宽，一列自适应宽度( flex )
 
-[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20flex%20).html)    [源码]()
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20flex%20).html)    [源码](https://github.com/Hellowor1d/cssLayout/blob/gh-pages/app/%E5%A4%9A%E5%88%97%E5%B8%83%E5%B1%80/%E4%B8%80%E5%88%97%E5%AE%9A%E5%AE%BD%E4%B8%80%E5%88%97%E8%87%AA%E9%80%82%E5%BA%94(%20flex%20).html)
 
 ### 多列定宽，一列自适应宽度
 
