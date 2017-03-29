@@ -104,7 +104,7 @@
 
 1.一列定宽，一列自适应宽度（float+margin）
 
-[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20float%20%2B%20margin%20).html)    [源码]()
+[预览](https://hellowor1d.github.io/cssLayout/app/多列布局/一列定宽一列自适应(%20float%20%2B%20margin%20).html)    [源码](https://github.com/Hellowor1d/cssLayout/blob/master/app/%E5%B1%85%E4%B8%AD%E5%B8%83%E5%B1%80/%E5%B1%85%E4%B8%AD%E5%B8%83%E5%B1%80-%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD%EF%BC%88text-align%20%2B%20inline-block%EF%BC%89.html)
 
 2.**一列定宽，一列自适应宽度（float+margin）fix 改良版**
 
